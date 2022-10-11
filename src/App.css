@@ -1,44 +1,64 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'PT Sans', sans-serif;
-  }
-  
-  .home,
-  .services,
-  .products,
-  .sign-up {
-    display: flex;
-    height: 90vh;
-    align-items: center;
-    justify-content: center;
-    font-size: 3rem;
-  }
-  
-  .services {
-    background-image: url('');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
-  
-  .products {
-    background-image: url('');
-    background-position: center;
-    background-size: fill;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
-  
-  .sign-up {
-    background-image: url('');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.skills,
+.jobs,
+.projects,
+.contacts,
+.sign-up {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.skills {
+  background-image: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F1943232%2Fpexels-photo-1943232.jpeg%3Fcs%3Dsrgb%26dl%3Dpexels-lisa-fotios-1943232.jpg%26fm%3Djpg&imgrefurl=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fred%2F&tbnid=-McLV9kMpMiPVM&vet=12ahUKEwitg4ziwNf6AhVCcDABHXY9BkoQMygBegUIARDlAQ..i&docid=tP_6dDiY7wyYHM&w=5428&h=4000&q=red%20images&ved=2ahUKEwitg4ziwNf6AhVCcDABHXY9BkoQMygBegUIARDlAQ');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+  font-size: 100px;
+}
+
+.jobs {
+  background-image: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F1943232%2Fpexels-photo-1943232.jpeg%3Fcs%3Dsrgb%26dl%3Dpexels-lisa-fotios-1943232.jpg%26fm%3Djpg&imgrefurl=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fred%2F&tbnid=-McLV9kMpMiPVM&vet=12ahUKEwitg4ziwNf6AhVCcDABHXY9BkoQMygBegUIARDlAQ..i&docid=tP_6dDiY7wyYHM&w=5428&h=4000&q=red%20images&ved=2ahUKEwitg4ziwNf6AhVCcDABHXY9BkoQMygBegUIARDlAQ');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: black;
+  font-size: 100px;
+}
+
+.projects {
+  background-image: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F1943232%2Fpexels-photo-1943232.jpeg%3Fcs%3Dsrgb%26dl%3Dpexels-lisa-fotios-1943232.jpg%26fm%3Djpg&imgrefurl=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fred%2F&tbnid=-McLV9kMpMiPVM&vet=12ahUKEwitg4ziwNf6AhVCcDABHXY9BkoQMygBegUIARDlAQ..i&docid=tP_6dDiY7wyYHM&w=5428&h=4000&q=red%20images&ved=2ahUKEwitg4ziwNf6AhVCcDABHXY9BkoQMygBegUIARDlAQ');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: black;
+  font-size: 100px;
+}
+
+.contacts {
+  background-image: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F1943232%2Fpexels-photo-1943232.jpeg%3Fcs%3Dsrgb%26dl%3Dpexels-lisa-fotios-1943232.jpg%26fm%3Djpg&imgrefurl=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fred%2F&tbnid=-McLV9kMpMiPVM&vet=12ahUKEwitg4ziwNf6AhVCcDABHXY9BkoQMygBegUIARDlAQ..i&docid=tP_6dDiY7wyYHM&w=5428&h=4000&q=red%20images&ved=2ahUKEwitg4ziwNf6AhVCcDABHXY9BkoQMygBegUIARDlAQ');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: black;
+  font-size: 100px;
+}
+
+.sign-up {
+  background-image: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F1943232%2Fpexels-photo-1943232.jpeg%3Fcs%3Dsrgb%26dl%3Dpexels-lisa-fotios-1943232.jpg%26fm%3Djpg&imgrefurl=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fred%2F&tbnid=-McLV9kMpMiPVM&vet=12ahUKEwitg4ziwNf6AhVCcDABHXY9BkoQMygBegUIARDlAQ..i&docid=tP_6dDiY7wyYHM&w=5428&h=4000&q=red%20images&ved=2ahUKEwitg4ziwNf6AhVCcDABHXY9BkoQMygBegUIARDlAQ');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+  font-size: 100px;
+}
